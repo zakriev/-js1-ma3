@@ -1,7 +1,7 @@
-// question 1
+// Q1
 const arrow = (a, b) => a - b;
 
-// question 2
+// Q2
 
 fetch ("https://api.rawg.io/api/games?genres=sports%22)
     .then(function (response) {
@@ -16,11 +16,11 @@ fetch ("https://api.rawg.io/api/games?genres=sports%22)
     .catch(() => document.location.href = "error.html");
 
 
-// question 3
+// Q3
 let replaceText = "These cats are outrageous.";
 replaceText = replaceText.replace("cats", "giraffes");
 
-// question 4 
+// Q4 
 const queryString = document.location.search;
 const params = new URLSearchParams(queryString);
 
@@ -38,12 +38,12 @@ if(userID < 10){
     document.location.href = "third.html";
 }
 
-// question 5
+// Q5
 const container = document.querySelector(".container");
 const button = document.querySelector(".btn");
 container.removeChild(button);
 
-// question 6
+// Q6
 
 const animals = document.querySelector(".animals");
 const cows = document.querySelector(".cows");
@@ -54,7 +54,7 @@ listing.innerText = "Parrots";
 
 cows.after(listing);
 
-// question 7
+// Q7
 
 fetch("https://api.rawg.io/api/games/3801%22)
     .then(function (response) {
